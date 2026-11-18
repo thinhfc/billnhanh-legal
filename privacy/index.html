@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chính Sách Bảo Mật · Privacy Policy – Bill Nhanh</title>
+    <style>
+        :root {
+            --primary: #360185;
+            --accent: #DE1A58;
+            --bg: #F6F4FA;
+            --card-bg: #FFFFFF;
+            --text: #1C1C1E;
+            --text-secondary: #6E6E73;
+            --line: #E5E1EE;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --primary: #9D67F5;
+                --accent: #FF4D82;
+                --bg: #000000;
+                --card-bg: #1C1C1E;
+                --text: #FFFFFF;
+                --text-secondary: #A1A1A6;
+                --line: #3A3A3C;
+            }
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            margin: 0;
+            padding: 16px;
+        }
+        .container {
+            max-width: 720px;
+            margin: 32px auto;
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+        }
+        @media (max-width: 600px) { .container { padding: 24px 20px; margin: 8px auto; } }
+        nav { font-size: 14px; margin-bottom: 24px; }
+        h1 { color: var(--primary); font-size: 28px; font-weight: 700; margin-bottom: 8px; }
+        .subtitle { color: var(--text-secondary); font-size: 14px; margin-bottom: 28px; }
+        h2 { font-size: 18px; font-weight: 600; margin-top: 28px; margin-bottom: 10px; }
+        p, li { font-size: 15px; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 6px; }
+        .note { border-left: 3px solid var(--accent); padding: 8px 14px; background: var(--bg); border-radius: 8px; }
+        hr { border: none; border-top: 1px solid var(--line); margin: 48px 0; }
+        .footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--line); font-size: 13px; color: var(--text-secondary); text-align: center; }
+        a { color: var(--primary); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <nav><a href="#vi">Tiếng Việt</a> · <a href="#en">English</a></nav>
+
+    <!-- ===== TIẾNG VIỆT ===== -->
+    <section id="vi">
+        <h1>Chính Sách Bảo Mật</h1>
+        <div class="subtitle">Bill Nhanh – Hóa đơn &amp; mã VietQR • Cập nhật lần cuối: tháng 11/2026</div>
+
+        <p>Chào mừng bạn đến với <strong>Bill Nhanh</strong>. Chúng tôi coi trọng quyền riêng tư của bạn và dữ liệu kinh doanh của cửa hàng bạn. Trang này giải thích ứng dụng xử lý những dữ liệu nào và vì sao.</p>
+
+        <h2>1. Dữ liệu lưu trên thiết bị</h2>
+        <ul>
+            <li><strong>Đơn hàng, món, khách hàng, báo cáo doanh thu</strong>, thông tin cửa hàng (tên, số điện thoại, địa chỉ) và tài khoản nhận tiền được lưu <strong>ngay trên thiết bị của bạn</strong>. Bill Nhanh không có máy chủ riêng và không có tài khoản đăng nhập.</li>
+            <li><strong>Spotlight &amp; Phím tắt:</strong> nếu bạn dùng, hệ thống iOS lập chỉ mục đơn hàng ngay trên máy để bạn tìm kiếm; dữ liệu này không gửi cho chúng tôi.</li>
+            <li><strong>Thư viện ảnh:</strong> ứng dụng chỉ xin quyền <em>thêm ảnh</em> để lưu hóa đơn khi bạn bấm Lưu; không đọc ảnh có sẵn của bạn.</li>
+        </ul>
+
+        <h2>2. Tạo mã VietQR</h2>
+        <p>Để hiện mã QR chuyển khoản trên hóa đơn, ứng dụng gửi tới dịch vụ <strong>VietQR (img.vietqr.io)</strong>: mã ngân hàng, số tài khoản, tên chủ tài khoản nhận tiền, số tiền và nội dung chuyển khoản dạng "Thanh toan don ABC123". Không gửi tên khách hay tên món. Dữ liệu này chỉ dùng để tạo ảnh mã QR, theo <a href="https://vietqr.io" target="_blank" rel="noopener">điều khoản của VietQR</a>.</p>
+
+        <h2>3. Thống kê sử dụng ẩn danh (từ phiên bản 1.0.8)</h2>
+        <p>Để biết màn hình và tính năng nào được dùng nhiều mà cải thiện trước, Bill Nhanh dùng <strong>Google Firebase Analytics</strong>. Ứng dụng chỉ gửi:</p>
+        <ul>
+            <li>Tên màn hình được mở (ví dụ "Đơn hàng", "Tạo đơn", "Báo cáo") và kiểu bố cục (iPhone hay iPad/Mac).</li>
+            <li>Các thao tác chính dưới dạng <strong>số đếm hoặc loại</strong>: đã lưu một đơn (số món, có giảm giá/phí ship hay không), đã lưu/chia sẻ/in hóa đơn (khổ giấy), đã dùng Phím tắt nào, đã mở đơn từ Spotlight.</li>
+            <li>Thông tin kỹ thuật Firebase tự thu: mã cài đặt ngẫu nhiên của ứng dụng (App Instance ID, không phải mã quảng cáo), dòng máy, phiên bản iOS/macOS, phiên bản ứng dụng, ngôn ngữ, quốc gia/khu vực ước lượng từ địa chỉ IP (Google không lưu địa chỉ IP).</li>
+        </ul>
+        <p class="note"><strong>Không bao giờ gửi:</strong> tên khách, tên món, số tiền, số tài khoản, thông tin cửa hàng, chữ bạn gõ tìm kiếm. <strong>Không quảng cáo</strong>, không dùng mã quảng cáo (IDFA), không theo dõi bạn qua ứng dụng/website khác, không bán dữ liệu.</p>
+        <p>Dữ liệu thống kê được Google xử lý thay mặt chúng tôi, lưu tối đa 14 tháng, theo <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">chính sách quyền riêng tư của Firebase</a> và <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">của Google</a>.</p>
+        <p><strong>Tắt thống kê:</strong> mở Bill Nhanh → <strong>Cài đặt</strong> → <strong>Quyền riêng tư</strong> → tắt <strong>"Gửi thống kê sử dụng ẩn danh"</strong>. Ứng dụng dừng gửi ngay lập tức, mọi tính năng vẫn dùng bình thường.</p>
+
+        <h2>4. Quyền của bạn</h2>
+        <ul>
+            <li><strong>Xóa dữ liệu:</strong> xóa từng đơn trong ứng dụng (vuốt sang trái), hoặc xóa ứng dụng để xóa toàn bộ dữ liệu trên máy.</li>
+            <li><strong>Thư viện ảnh:</strong> thu hồi quyền trong Cài đặt của iPhone → Quyền riêng tư &amp; Bảo mật → Ảnh → Bill Nhanh.</li>
+            <li><strong>Thống kê:</strong> tắt bất cứ lúc nào như mục 3.</li>
+        </ul>
+
+        <h2>5. Trẻ em</h2>
+        <p>Bill Nhanh là công cụ bán hàng, không hướng tới trẻ em dưới 13 tuổi và không cố ý thu thập dữ liệu của trẻ em.</p>
+
+        <h2>6. Thay đổi chính sách</h2>
+        <p>Khi chính sách thay đổi, chúng tôi cập nhật trang này và ngày "Cập nhật lần cuối" ở trên.</p>
+
+        <h2>7. Liên hệ</h2>
+        <p>Mọi thắc mắc về quyền riêng tư, xin liên hệ: 📧 <a href="mailto:thinhnguyen.dev91@gmail.com">thinhnguyen.dev91@gmail.com</a></p>
+    </section>
+
+    <hr>
+
+    <!-- ===== ENGLISH ===== -->
+    <section id="en" lang="en">
+        <h1>Privacy Policy</h1>
+        <div class="subtitle">Bill Nhanh – Invoices &amp; VietQR • Last updated: November 2026</div>
+
+        <p>Welcome to <strong>Bill Nhanh</strong>. We respect your privacy and your shop's business data. This page explains what data the app handles and why.</p>
+
+        <h2>1. Data stored on your device</h2>
+        <ul>
+            <li><strong>Orders, items, customers, revenue reports</strong>, shop details (name, phone, address) and your receiving bank account are stored <strong>on your device only</strong>. Bill Nhanh has no server of its own and no user accounts.</li>
+            <li><strong>Spotlight &amp; Shortcuts:</strong> if you use them, iOS indexes your orders on-device so you can search; this data is not sent to us.</li>
+            <li><strong>Photo Library:</strong> the app only asks for <em>add-only</em> access to save invoice images when you tap Save; it never reads your existing photos.</li>
+        </ul>
+
+        <h2>2. VietQR code generation</h2>
+        <p>To show a bank-transfer QR code on an invoice, the app sends to the <strong>VietQR service (img.vietqr.io)</strong>: bank code, account number, account holder name, amount and a transfer note such as "Thanh toan don ABC123". Customer names and item names are not sent. This data is used only to render the QR image, under <a href="https://vietqr.io" target="_blank" rel="noopener">VietQR's terms</a>.</p>
+
+        <h2>3. Anonymous usage statistics (from version 1.0.8)</h2>
+        <p>To learn which screens and features are used most so we can improve them first, Bill Nhanh uses <strong>Google Firebase Analytics</strong>. The app only sends:</p>
+        <ul>
+            <li>The name of the screen opened (e.g. "Orders", "New invoice", "Reports") and the layout type (iPhone or iPad/Mac).</li>
+            <li>Key actions as <strong>counts or types only</strong>: an invoice was saved (number of items, whether it has a discount/shipping fee), an invoice was saved/shared/printed (paper size), which Shortcut was used, an order was opened from Spotlight.</li>
+            <li>Technical data collected by Firebase: a random app installation ID (App Instance ID, not an advertising ID), device model, iOS/macOS version, app version, language, and country/region estimated from the IP address (Google does not store the IP address).</li>
+        </ul>
+        <p class="note"><strong>Never sent:</strong> customer names, item names, amounts, bank account numbers, shop details, or search text. <strong>No ads</strong>, no advertising identifier (IDFA), no tracking across other apps or websites, and we never sell data.</p>
+        <p>Statistics are processed by Google on our behalf and kept for up to 14 months, under the <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase privacy policy</a> and <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's privacy policy</a>.</p>
+        <p><strong>Turn it off:</strong> open Bill Nhanh → <strong>Settings</strong> → <strong>Privacy</strong> → switch off <strong>"Send anonymous usage statistics"</strong> ("Gửi thống kê sử dụng ẩn danh"). Sending stops immediately and every feature keeps working.</p>
+
+        <h2>4. Your choices</h2>
+        <ul>
+            <li><strong>Delete data:</strong> delete individual orders in the app (swipe left), or delete the app to remove all data from your device.</li>
+            <li><strong>Photo Library:</strong> revoke access in iPhone Settings → Privacy &amp; Security → Photos → Bill Nhanh.</li>
+            <li><strong>Statistics:</strong> turn off any time as described in section 3.</li>
+        </ul>
+
+        <h2>5. Children</h2>
+        <p>Bill Nhanh is a sales tool, not directed at children under 13, and does not knowingly collect data from children.</p>
+
+        <h2>6. Changes</h2>
+        <p>If this policy changes, we will update this page and the "Last updated" date above.</p>
+
+        <h2>7. Contact</h2>
+        <p>For any privacy question, contact: 📧 <a href="mailto:thinhnguyen.dev91@gmail.com">thinhnguyen.dev91@gmail.com</a></p>
+    </section>
+
+    <div class="footer">© 2026 Bill Nhanh</div>
+</div>
+</body>
+</html>
